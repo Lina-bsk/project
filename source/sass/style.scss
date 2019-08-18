@@ -1,0 +1,22 @@
+@import "normalize.scss";
+@import "variables.scss";
+@import "global.scss";
+
+body {
+  background: green;
+}
+
+.block {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  background-color: green;
+}
+
+.top-block {
+  height: 20px;
+  width: 100%;
+  background-color: yellow;
+}
